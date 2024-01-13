@@ -1,0 +1,40 @@
+footer {
+    background-color: #ffffff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: 0;
+  }
+.footerContent{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.sloganImg,
+.plmLogoBlack {
+  width: 15%;
+  height: auto; 
+  object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
+  object-position: center;
+  display: block;
+  margin: 20px 5%;
+}
+
+/* Media Query para dispositivos móveis */
+@media (max-width: 768px) {
+  .footer {
+    height: auto; 
+  }
+
+  .footerContent {
+    flex-direction: row; 
+    align-items: center;
+  }
+
+  .sloganImg,
+  .plmLogoBlack {
+    width: 40%; 
+    margin: 10px; 
+  }
+}
