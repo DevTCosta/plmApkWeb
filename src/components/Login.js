@@ -12,10 +12,8 @@ const Login = ({ loggedIn, setLoggedIn, setUsername }) => {
   const handleLogin = (e) => {
     if ((usernameInput === 'widex' || usernameInput === 'hp') && (password === 'widex123' || password === 'hp123')) {
       setLoggedIn(true);
-      console.log('Username no DashboardPage:', usernameInput);
       setUsername(usernameInput);
       navigate('/dashboard');
-      console.log('Username no DashboardPage:', usernameInput);
     } else {
       alert('Credenciais inválidas!');
     }
