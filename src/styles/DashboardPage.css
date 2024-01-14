@@ -1,6 +1,83 @@
-.backgroundDashboard {
-  height: 100%;
+body {
+  font-family: 'HelveticaNeueLTPro-lt', sans-serif;
   margin: 0;
-  padding: 0;
+}
+
+.dashboardWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.containerDashboard {
+  background-color: rgb(244, 244, 244);
+  flex: 1; 
+  display: grid;
+  gap: 50px;
+  padding: 50px 70px;
+  padding-bottom:9% ;
+  grid-template-columns: auto auto;
+}
+.generalContainerDashboard{
   background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid rgba(145, 145, 145, 0.425) 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39);
+}
+.generalBar{
+  margin: 0;
+  padding: 10px 0 10px 20px;
+  border-radius: 10px 10px 0 0 ;
+  display: flex;
+  justify-content: space-between;
+}
+.txtGeneralBar{
+  margin: 0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.lojaHistoryContainer{
+  display: grid;
+  grid-template-rows: auto auto;
+  gap: 50px;
+}
+.lojaContainer{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid rgba(145, 145, 145, 0.425) 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39);
+}
+.historyCotainer{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid rgba(145, 145, 145, 0.425) 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.39);
+}
+.uploadIcon, .trashIcon{
+width: 30px;
+margin-right: 35px;
+}
+.footer {
+  background-color: #333;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dcmLogoBlack {
+  width: 6%;
+  height: auto;
+  margin-left: 75px;
+  padding:20px 0;
+  object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
+}
+
+.plmLogoFooter {
+  width: 10%;
+  height: auto;
+  margin-right: 75px;
+  object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
 }

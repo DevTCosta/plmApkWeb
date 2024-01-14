@@ -1,9 +1,12 @@
+
+
 html,
 body {
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: rgb(6, 6, 6);
+
 }
 
 #root {
@@ -45,6 +48,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 30%;
+  
 }
 .userInput{
   width: 100%;
@@ -53,9 +57,10 @@ body {
   margin: 6px 0;
   border-radius: 8px;
   padding-left: 5px;
+  text-indent: 20px;
 }
 .userInput::placeholder {
-  padding-left: 10px;
+  text-indent: 20px; /* Ajuste o valor conforme necessário */
   color: #dadada;
 }
 

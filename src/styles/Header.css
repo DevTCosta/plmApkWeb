@@ -1,7 +1,76 @@
 header {
     color: #fff;
-    padding: 10px;
     text-align: center;
+    display: flex; 
+    justify-content: space-between;
+    padding: 15px 0;     
+    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+  }
+  .plmLogoBlack{
+    margin: 20px 70px;
+    width: 12%;
+  }
+
+  .userOffice{
+  display: flex;
+  justify-content: start;  /* Adicione esta linha */
+  width: 41%;
+  }
+
+  .userIcon{
+    margin: right 10px;
+    max-width: 100px;
+    max-height: auto;
+    object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
+  }
+  .textUserOffice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    text-align: left;
+    width: 100%;
+    padding: 0 40px;
   }
   
+  .textUserOffice h1, .textUserOffice p {
+    margin: 0;
+    width: 100%;
+  }
+  .inputSearch{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 23%;
+  }
+  .searchBar::placeholder {
+    color: #dadada;
+    text-indent: 30px; /* Ajuste o valor conforme necessário */
+  }
   
+  .searchIcon{
+    background-color: lightgray;
+    position: relative;
+    left: 30px;
+    max-width: 20px;
+    max-height: auto;
+    object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
+  }
+.searchBar{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: none;
+    border-radius: 30px ;
+    text-indent: 30px;
+  }
+
+  .logoutIcon{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 36px;
+    margin: 0 50px;
+    max-height: auto;
+    object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
+  }

@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import '../styles/Login.css';
 import dcmLogo from '../imagens/logos/dcmLogo.png';
-import Footer from './Footer';
+
+import '../styles/Footer.css';
+import sloganImg from '../imagens/logos/slogan.png' ;
+import plmLogoBlack from '../imagens/logos/plmLogoblack.png';
 
 const Login = ({ loggedIn, setLoggedIn, setUsername }) => {
   const [usernameInput, setUsernameInput] = useState('');
@@ -47,7 +50,12 @@ const Login = ({ loggedIn, setLoggedIn, setUsername }) => {
         />
       </div>
       <Link to="/dashboard">Ir para a Dashboard (simulação)</Link>
-      <Footer />
+      <footer>
+      <div className='footerContent'>
+        <img className='sloganImg' src= {sloganImg} alt='Logo' />
+        <img className='plmLogoBlack' src= {plmLogoBlack} alt='Logo' />
+        </div>
+      </footer>
     </div>
   );
 };

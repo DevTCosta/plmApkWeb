@@ -1,0 +1,42 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 4081560, 2021-05-04T19:10:53-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaNeueLTPro-Lt by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-45-light-189172/
+ * 
+ * Webfont: HelveticaNeueLTPro-Md by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-65-medium/
+ * 
+ * Webfont: HelveticaNeueLTPro-Bd by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/neue-helvetica/pro-75-bold/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2021 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3e4798");
+  
+@font-face {
+  font-family: "HelveticaNeueLTPro-Md";
+  src: url('webFonts/HelveticaNeueLTProMd/font.woff2') format('woff2'), url('webFonts/HelveticaNeueLTProMd/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Lt";
+  src: url('webFonts/HelveticaNeueLTProLt/font.woff2') format('woff2'), url('webFonts/HelveticaNeueLTProLt/font.woff') format('woff');
+}
+@font-face {
+  font-family: "HelveticaNeueLTPro-Bd";
+  src: url('webFonts/HelveticaNeueLTProBd/font.woff2') format('woff2'), url('webFonts/HelveticaNeueLTProBd/font.woff') format('woff');
+}
+

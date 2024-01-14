@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
 import Login from "./components/Login";
-import Dashboard from "./components/DashboardPage";
+import DashboardPage from "./components/DashboardPage";
 
 const App = () => {
   const [loggedIn, setLoggedIn] = useState(false);
@@ -35,7 +34,7 @@ const App = () => {
           />
           <Route
             path="/dashboard"
-            element={<Dashboard loggedIn={loggedIn} username={username} />}
+            element={<DashboardPage loggedIn={loggedIn} username={username} />}
           />
         </Routes>
       </div>
