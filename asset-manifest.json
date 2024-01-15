@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/plmApkWeb/static/css/main.84ad4bcf.css",
+    "main.js": "/plmApkWeb/static/js/main.425f7c2a.js",
+    "static/media/dcmLogoBlack.png": "/plmApkWeb/static/media/dcmLogoBlack.8a32151953c28053a20f.png",
+    "static/media/dcmLogo.png": "/plmApkWeb/static/media/dcmLogo.eafe413ff93c992f184e.png",
+    "static/media/slogan.png": "/plmApkWeb/static/media/slogan.e3d297c48aa0f49d6444.png",
+    "static/media/widex.png": "/plmApkWeb/static/media/widex.29b40a19a0e5cb15eef7.png",
+    "static/media/font.woff": "/plmApkWeb/static/media/font.8eedbdd9a9860f793b06.woff",
+    "static/media/font.woff2": "/plmApkWeb/static/media/font.56e252e0fe412612ffaf.woff2",
+    "static/media/plmLogoblack.png": "/plmApkWeb/static/media/plmLogoblack.8162a524f6a756c0532d.png",
+    "static/media/configLogout.png": "/plmApkWeb/static/media/configLogout.a716454903b9040741ec.png",
+    "static/media/userIcon.png": "/plmApkWeb/static/media/userIcon.548d551976ff4048b0bc.png",
+    "static/media/searchIcon.png": "/plmApkWeb/static/media/searchIcon.d07b77dfb2fc96a7b362.png",
+    "index.html": "/plmApkWeb/index.html",
+    "main.84ad4bcf.css.map": "/plmApkWeb/static/css/main.84ad4bcf.css.map",
+    "main.425f7c2a.js.map": "/plmApkWeb/static/js/main.425f7c2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84ad4bcf.css",
+    "static/js/main.425f7c2a.js"
+  ]
+}
