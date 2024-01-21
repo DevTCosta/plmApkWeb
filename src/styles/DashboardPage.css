@@ -81,3 +81,25 @@ margin-right: 35px;
   margin-right: 75px;
   object-fit: contain; /* ajusta de no centro de acordo com o tamanho da img */
 }
+
+.playIcon{
+  background-color: #818285 ;
+  width: 25px;
+  height: 25px;
+  border-radius: 3px;
+}
+.video-container {
+  border: 2px solid #000000;
+}
+
+.close-button {
+  position: fixed;
+  top: 50px; /* Ajuste conforme necessário para alinhar com o vídeo */
+  left: 50px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #fff; /* Cor de fundo do botão */
+  border: 1px solid #ccc; /* Borda do botão */
+  padding: 5px 10px; /* Espaçamento interno do botão */
+  cursor: pointer;
+}
